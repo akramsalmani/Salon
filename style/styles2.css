@@ -1,0 +1,310 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* background-color: #333; */
+    
+}
+
+/* Dark-themed header */
+.dark-header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Logo styling */
+.logo img {
+    width: 100px; /* Adjust as needed */
+}
+
+/* Navigation menu styling */
+.nav-menu ul {
+    list-style: none;
+    display: flex;
+}
+
+.nav-menu li {
+    margin-right: 20px;
+}
+
+.nav-menu a {
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s ease;
+}
+
+.nav-menu a:hover {
+    color: #ffcc00; /* Change to your desired hover color */
+}
+
+
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Dark theme styles */
+body {
+    background-color: #1a1a1a;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+}
+
+/* Container for headline and subheadline */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Headline styles */
+.headline {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* Subheadline styles */
+.subheadline {
+    font-size: 18px;
+    opacity: 0.8;
+}
+
+/* Image animation */
+.salon-image {
+    width: 100%;
+    max-width: 600px;
+    margin: 20px auto;
+    animation: fadeIn 1s ease-in-out;
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+    .headline {
+        font-size: 24px;
+    }
+    .subheadline {
+        font-size: 16px;
+    }
+}
+
+
+
+
+ /* Reset default styles */
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Dark theme styles */
+body {
+    background-color: #1a1a1a;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+}
+
+/* Container for USP section */
+.usp-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+/* USP headline styles */
+.usp-headline {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* USP description styles */
+.usp-description {
+    font-size: 18px;
+    opacity: 0.8;
+    margin-bottom: 20px;
+}
+
+/* USP image animation */
+.usp-image {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    animation: fadeIn 1s ease-in-out;
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+    .usp-headline {
+        font-size: 24px;
+    }
+    .usp-description {
+        font-size: 16px;
+    }
+}
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Dark theme styles */
+body {
+    background-color: #1a1a1a;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+}
+
+/* Container for visual content */
+.visual-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Image animation */
+.salon-image {
+    width: 100%;
+    max-width: 600px;
+    margin: 20px auto;
+    animation: fadeIn 1s ease-in-out;
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+    .salon-image {
+        max-width: 80%;
+    }
+}
+
+
+ /* Reset default styles */
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Dark theme styles */
+body {
+    background-color: #1a1a1a;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+}
+
+/* Container for benefits section */
+.benefits-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Benefit headline styles */
+.benefit-headline {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* Benefit description styles */
+.benefit-description {
+    font-size: 18px;
+    opacity: 0.8;
+    margin-bottom: 20px;
+}
+
+/* Benefit image animation */
+.benefit-image {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    animation: fadeIn 1s ease-in-out;
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+    .benefit-headline {
+        font-size: 24px;
+    }
+    .benefit-description {
+        font-size: 16px;
+    }
+}
+
+ /* ////////////////////contact section //////////////////////*/
+
+ body {
+    font-family: 'Arial', sans-serif;
+    background-color: #121212; /* Dark theme background */
+    color: #fff;
+    margin: 0;
+    padding: 0;
+  }
+  .container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+  }
+  .contact-section {
+    padding: 50px 0;
+    text-align: center;
+  }
+  .contact-info {
+    margin-bottom: 30px;
+  }
+  .contact-info h3 {
+    font-size: 1.8rem;
+    color: #f0ad4e; /* Accent color */
+    margin-bottom: 10px;
+  }
+  .contact-info p {
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+  .map-container {
+    position: relative;
+    overflow: hidden;
+    padding-top: 56.25%; /* 16:9 Aspect Ratio */
+  }
+  .map-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 60%;
+    border: 0;
+  }

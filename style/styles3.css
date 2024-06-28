@@ -1,0 +1,328 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* background-color: #333; */
+    
+}
+
+/* Dark-themed header */
+.dark-header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Logo styling */
+.logo img {
+    width: 100px; /* Adjust as needed */
+}
+
+/* Navigation menu styling */
+.nav-menu ul {
+    list-style: none;
+    display: flex;
+}
+
+.nav-menu li {
+    margin-right: 20px;
+}
+
+.nav-menu a {
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s ease;
+}
+
+.nav-menu a:hover {
+    color: #ffcc00; /* Change to your desired hover color */
+}
+
+
+  /* /////////////////////////////////Reset default styles //////////////////////////////////*/
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Dark theme styles */
+body {
+    background-color: #1a1a1a;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+}
+
+/* Container for booking form */
+.booking-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Form input styles */
+input, select, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: #333;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+}
+
+/* Submit button styles */
+.submit-button {
+    background-color: #ff6600;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+    .booking-container {
+        max-width: 80%;
+    }
+}
+
+/* /////////////////////////////////////service section//////////////////////// */
+
+  /* Reset default styles */
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Dark theme styles */
+body {
+    background-color: #1a1a1a;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+}
+
+/* Container for services section */
+.services-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Service item styles */
+.service-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.service-icon {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+.service-description {
+    flex-grow: 1;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+    .services-container {
+        max-width: 80%;
+    }
+}
+
+/*//////////////////////////////////// team section/////////////////////////////////// */
+
+ /* Reset default styles */
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Dark theme styles */
+body {
+    background-color: #1a1a1a;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+}
+
+/* Container for stylist selection */
+.stylist-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Stylist dropdown styles */
+select {
+    width: 100%;
+    padding: 10px;
+    background-color: #333;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+    .stylist-container {
+        max-width: 80%;
+    }
+}
+
+/* /////////////////////celender section///////////////////////// */
+
+ /* Reset default styles */
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Dark theme styles */
+body {
+    background-color: #1a1a1a;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+}
+
+/* Calendar container */
+.calendar-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Calendar table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #333;
+}
+
+th {
+    background-color: #444;
+}
+
+td.booked {
+    background-color: #ff6600;
+    color: #ffffff;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+    .calendar-container {
+        max-width: 80%;
+    }
+}
+
+/* /////////////////////////////payment type/////////////////// */
+
+ /* Reset default styles */
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Dark theme styles */
+body {
+    background-color: #1a1a1a;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+}
+
+/* Container for confirmation and payment */
+.confirmation-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Summary styles */
+.appointment-summary {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+/* Payment options */
+.payment-options {
+    display: flex;
+    justify-content: space-between;
+}
+
+.payment-option {
+    background-color: #444;
+    color: #ffffff;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+    .confirmation-container {
+        max-width: 80%;
+    }
+}
+
+/* //////////////////////////////////footer ////////////////////////*/
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Dark theme styles */
+body {
+    background-color: #1a1a1a;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+}
+
+/* Footer styles */
+.footer {
+    background-color: #333;
+    padding: 20px;
+    text-align: center;
+}
+
+.book-now-button {
+    background-color: #ff6600;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.policy-links {
+    margin-top: 10px;
+}
+
+.policy-link {
+    color: #ffffff;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+    .footer {
+        padding: 10px;
+    }
+}

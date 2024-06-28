@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles3.css">
+</head>
+<body>
+    <header class="dark-header">
+        <div class="logo">
+            <img src="photos/logo.png" alt="Salon Logo">
+        </div>
+        <nav class="nav-menu">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#visual-container">Services</a></li>
+                <li><a href="#container">About Us</a></li>
+                <li><a href="#contact-section">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-------------------------- booking form ----------------------------------->
+
+    <div class="booking-container">
+        <h1>Book Your Appointment</h1>
+        <form action="submit_booking.php" method="post">
+            <input type="text" name="full_name" placeholder="Full Name" required>
+            <input type="tel" name="contact_number" placeholder="Contact Number" required>
+            <input type="email" name="email" placeholder="Email Address" required>
+            <input type="datetime-local" name="preferred_datetime" required>
+            <select name="services" multiple>
+                <option value="haircut">Haircut</option>
+                <option value="styling">Styling</option>
+                <option value="spa">Spa</option>
+                <option value="haircut">Haircut</option>
+                <option value="styling">Styling</option>
+                <option value="spa">Spa</option>
+            </select>
+            <textarea name="special_requests" placeholder="Special Requests"></textarea>
+            <button type="submit" class="submit-button">Book Now</button>
+        </form>
+    </div>
+<!-------------------------------- service section ------------------------------->
+
+
+    <div class="services-container">
+        <div class="service-item">
+            <img src="photos/salon1.jpg" alt="Haircut" class="service-icon">
+            <div class="service-description">
+                <h2>Haircut</h2>
+                <p>Get a stylish haircut that suits your personality. Our expert stylists will transform your look.</p>
+                <p>Price: $30</p>
+            </div>
+        </div>
+        <div class="service-item">
+            <img src="photos/salon3.png" alt="Styling" class="service-icon">
+            <div class="service-description">
+                <h2>Styling</h2>
+                <p>From blowouts to updos, we'll create the perfect hairstyle for any occasion.</p>
+                <p>Price: $40</p>
+            </div>
+        </div>
+        <!-- Add more service items as needed -->
+        <div class="service-item">
+            <img src="photos/salon1.jpg" alt="Haircut" class="service-icon">
+            <div class="service-description">
+                <h2>Haircut</h2>
+                <p>Get a stylish haircut that suits your personality. Our expert stylists will transform your look.</p>
+                <p>Price: $30</p>
+            </div>
+        </div>
+        <div class="service-item">
+            <img src="photos/salon3.png" alt="Styling" class="service-icon">
+            <div class="service-description">
+                <h2>Styling</h2>
+                <p>From blowouts to updos, we'll create the perfect hairstyle for any occasion.</p>
+                <p>Price: $40</p>
+            </div>
+        </div>
+        <!-- Add more service items as needed -->
+        <div class="service-item">
+            <img src="photos/salon1.jpg" alt="Haircut" class="service-icon">
+            <div class="service-description">
+                <h2>Haircut</h2>
+                <p>Get a stylish haircut that suits your personality. Our expert stylists will transform your look.</p>
+                <p>Price: $30</p>
+            </div>
+        </div>
+        <div class="service-item">
+            <img src="photos/salon3.png" alt="Styling" class="service-icon">
+            <div class="service-description">
+                <h2>Styling</h2>
+                <p>From blowouts to updos, we'll create the perfect hairstyle for any occasion.</p>
+                <p>Price: $40</p>
+            </div>
+        </div>
+        <!-- Add more service items as needed -->
+    </div>
+
+    <!-------------------------- team section ----------------------------------------->
+
+
+    <div class="stylist-container">
+        <h1>Select Your Stylist</h1>
+        <p>Choose from our talented team:</p>
+        <select name="stylist">
+            <option value="jane">Jane Doe (Haircuts & Styling)</option>
+            <option value="lisa">Lisa Smith (Color Specialist)</option>
+            <option value="alex">Alex Johnson (Spa Treatments)</option>
+        </select>
+    </div>
+
+
+    <!------------------------- celender section ------------------------------->
+
+    <div class="calendar-container">
+        <h1>Available Slots</h1>
+        <table>
+            <thead>
+                <tr>
+                    <th>Date</th>
+                    <th>Time</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>May 15</td>
+                    <td class="booked">10:00 AM</td>
+                </tr>
+                <tr>
+                    <td>May 15</td>
+                    <td>11:30 AM</td>
+                </tr>
+                <!-- Add more rows for other dates and times -->
+                <tr>
+                    <td>May 15</td>
+                    <td class="booked">10:00 AM</td>
+                </tr>
+                <tr>
+                    <td>May 15</td>
+                    <td>11:30 AM</td>
+                </tr>
+                <!-- Add more rows for other dates and times -->
+               
+                <!-- Add more rows for other dates and times -->
+            </tbody>
+        </table>
+    </div>
+
+    <!------------------------- card type ------------------------------------------>
+    <div class="confirmation-container">
+        <h1>Confirm Your Appointment</h1>
+        <p class="appointment-summary">You've selected a haircut with Jane Doe on May 15 at 11:30 AM.</p>
+        <p>Please confirm your appointment:</p>
+        <div class="payment-options">
+            <div class="payment-option">Pay with Credit Card</div>
+            <div class="payment-option">Pay via Online Transfer</div>
+        </div>
+    </div>
+
+    <!--------------------------- footer --------------------------------->
+
+    <div class="footer">
+        <button class="book-now-button">Book Now</button>
+        <div class="policy-links">
+            <a href="cancellation-policy.html" class="policy-link">Cancellation Policy</a>
+            <a href="privacy-policy.html" class="policy-link">Privacy Policy</a>
+        </div>
+    </div>
+
+</body>
+</html>
